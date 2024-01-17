@@ -15,7 +15,7 @@ export const skillsData = [
   },
   {
     name: "TAILWIND",
-    image: "https://branditechture.agency/brand-logos/wp-content/uploads/2023/05/Tailwind-CSS1.png",
+    image: "https://media.zeemly.com/zeemly/product/tailwind-css.png",
   },
   {
     name: "REACTJS",

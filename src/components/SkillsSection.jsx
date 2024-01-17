@@ -4,7 +4,7 @@ import { skillsData } from "../utils/skillsData";
 const SkillsSection = () => {
   return (
     <>
-      <section className="skills-section py-20">
+      <section className="skills-section py-20" id="skillsSection">
         <div className="container mx-auto h-[100%] px-2">
           <h1 className="text-5xl text-slate-900 mb-[100px] font-bold text-center md:text-7xl">
             Skills

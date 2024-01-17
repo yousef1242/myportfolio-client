@@ -17,7 +17,7 @@ export default function ProjectsDahboardPage() {
   }, []);
 
   return (
-    <div className="projects-dahboard-page h-[100vh] bg-ofwhitecolor">
+    <div className="projects-dahboard-page min-h-[100vh] bg-ofwhitecolor">
       <div className="container px-2 mx-auto h-full py-20">
         <div className="header flex items-center justify-between mb-[20px]">
           <h2 className="text-slate-900 text-5xl md:text-7xl font-bold mb-[20px]">

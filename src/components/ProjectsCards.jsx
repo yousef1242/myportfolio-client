@@ -3,10 +3,13 @@ import fetchProjects from "../utils/fetchProjects";
 import Loading from "./Loading";
 import swal from "sweetalert";
 import request from "../utils/request";
+import ProjectModel from "./ProjectModel";
 
 export default function ProjectsCards() {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [singleProject, setSingleProject] = useState({});
+  const [projectModel, setProjectModel] = useState(false);
 
   const successlogin = localStorage.getItem("successLogin")
     ? JSON.parse(localStorage.getItem("successLogin"))
@@ -74,7 +77,7 @@ export default function ProjectsCards() {
         <div className="flex flex-col sm:flex-row flex-wrap">
           {projects?.map((project, index) => (
             <div key={index + 1} className="p-2 w-full mb-3 sm:w-1/2 md:w-1/3">
-              <div className="card rounded-md shadow-md bg-white">
+              <div className="card rounded-md overflow-hidden shadow-md bg-white">
                 <div className="card-header-image">
                   <img
                     src={project?.image?.url}
@@ -84,11 +87,19 @@ export default function ProjectsCards() {
                   />
                 </div>
                 <div className="card-body px-2 py-5">
-                  <h3 className="text-slate-800 font-bold text-3xl mb-[40px]">
+                  <h3 className="text-slate-800 font-bold text-2xl mb-[40px]">
                     {project?.title}
                   </h3>
                   <div className="flex items-center">
-                    <button className="bg-maincolor text-white font-semibold py-2 px-3 w-1/2 rounded-sm">
+                    <button
+                      onClick={() => {
+                        if (project) {
+                          setSingleProject(project);
+                          setProjectModel(true);
+                        }
+                      }}
+                      className="bg-maincolor text-white font-semibold py-2 px-3 w-1/2 rounded-sm"
+                    >
                       View
                     </button>
                     <div className="card-date text-slate-700 w-1/2 font-semibold ms-4">
@@ -126,6 +137,12 @@ export default function ProjectsCards() {
             <Loading />
           </div>
         </div>
+      )}
+      {projectModel && (
+        <ProjectModel
+          setProjectModel={setProjectModel}
+          singleProject={singleProject}
+        />
       )}
     </>
   );

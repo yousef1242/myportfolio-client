@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import contactImage from "../images/contact-section-image.png";
 
 const ContactSection = () => {
   return (
     <>
-      <section className="contact-section py-20 min-h-[100vh]">
+      <section className="contact-section py-20 min-h-[100vh]" id="contactSection">
         <div className="container relative mx-auto h-[100%] px-2">
           <h1 className="text-slate-900 text-5xl mb-[100px] font-bold text-center md:text-7xl">
             Contact Info
@@ -11,8 +12,9 @@ const ContactSection = () => {
           <div className="contect-section-content flex flex-col md:flex-row space-y-3 md:space-y-0 md:justify-center">
             {/* contact section cards */}
             {/* github card */}
-            <a
-              href="https://github.com/yousef1242"
+            <Link
+              target="_blank"
+              to="https://github.com/yousef1242"
               className="contact-section-content-cards upwork-icon shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:md:absolute left-0 md:top-[150px]"
             >
               <img
@@ -21,10 +23,11 @@ const ContactSection = () => {
                 alt="upwork-img"
               />
               <div className="contact-section-content-cards-name">Github</div>
-            </a>
+            </Link>
             {/* gmail card */}
-            <a
-              href="mailto:yousefahmedelshahed@gmail.com"
+            <Link
+              target="_blank"
+              to="mailto:yousefahmedelshahed@gmail.com"
               className="contact-section-content-cards upwork-icon shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:absolute md:left-[30px] md:top-[300px]"
             >
               <img
@@ -33,10 +36,11 @@ const ContactSection = () => {
                 alt="upwork-img"
               />
               <div className="contact-section-content-cards-name">Gmail</div>
-            </a>
+            </Link>
             {/* whatsapp card */}
-            <a
-              href="https://wa.me/+01145667099"
+            <Link
+              target="_blank"
+              to="https://wa.me/+01145667099"
               className="contact-section-content-cards upwork-icon shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:absolute md:left-[60px] md:top-[450px]"
             >
               <img
@@ -45,10 +49,11 @@ const ContactSection = () => {
                 alt="upwork-img"
               />
               <div className="contact-section-content-cards-name">Whatsapp</div>
-            </a>
+            </Link>
             {/* facebook card */}
-            <a
-              href="https://www.facebook.com/fluxe.tech/"
+            <Link
+              target="_blank"
+              to="https://www.facebook.com/fluxe.tech/"
               className="contact-section-content-cards upwork-icon shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:absolute md:right-0 md:top-[150px]"
             >
               <img
@@ -57,10 +62,11 @@ const ContactSection = () => {
                 alt="upwork-img"
               />
               <div className="contact-section-content-cards-name">Facebook</div>
-            </a>
+            </Link>
             {/* instagram card */}
-            <a
-              href="https://www.instagram.com/_yussef_jooo_/"
+            <Link
+              target="_blank"
+              to="https://www.instagram.com/_yussef_jooo_/"
               className="contact-section-content-cards upwork-icon shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:absolute md:right-[30px] md:top-[300px]"
             >
               <img
@@ -71,10 +77,11 @@ const ContactSection = () => {
               <div className="contact-section-content-cards-name">
                 Instagram
               </div>
-            </a>
+            </Link>
             {/* mostaql card */}
-            <a
-              href="https://mostaql.com/u/yousef904"
+            <Link
+              target="_blank"
+              to="https://mostaql.com/u/yousef904"
               className="contact-section-content-cards upwork-icon shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:absolute md:right-[60px] md:top-[450px]"
             >
               <img
@@ -83,7 +90,7 @@ const ContactSection = () => {
                 alt="upwork-img"
               />
               <div className="contact-section-content-cards-name">Mostaql</div>
-            </a>
+            </Link>
             {/* contact section image */}
             <div className="contact-section-content-image hidden lg:flex">
               <img loading="lazy" src={contactImage} alt="contact-img" />

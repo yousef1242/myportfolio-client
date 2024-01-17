@@ -3,7 +3,7 @@ import aboutImage from "../images/about-section-image.png";
 const AboutSection = () => {
   return (
     <>
-      <section className="aboutme-section py-20">
+      <section className="aboutme-section py-20" id="aboutmeSection">
         <div className="container mx-auto h-[100%] px-2">
           <h1 className="text-slate-900 text-5xl mb-[100px] font-bold text-center md:text-7xl">
             Who I'm
