@@ -8,7 +8,7 @@ const navigation = [
   { name: "About Me", to_id: "aboutmeSection" },
   { name: "Skills", to_id: "skillsSection" },
   { name: "Projects", to_id: "projectsSection" },
-  { name: "Calendar", to_id: "contactSection" },
+  { name: "Contact", to_id: "contactSection" },
 ];
 
 const Navbar = () => {

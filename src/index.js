@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 import AuthDashboardPage from "./pages/dashboard/AuthDashboardPage";
 import ProjectsDahboardPage from "./pages/dashboard/ProjectsDashboardPage";
 import CreateProjectDashboardPage from "./pages/dashboard/CreateProjectDashboardPage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/dashboard/projects/create",
     element: <CreateProjectDashboardPage />,
+  },
+  {
+    path: "*",
+    element: <NotFoundPage />,
   },
 ]);
 
