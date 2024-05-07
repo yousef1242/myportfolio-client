@@ -18,7 +18,7 @@ const ContactSection = () => {
             <Link
               target="_blank"
               to="https://github.com/yousef1242"
-              className="contact-section-content-cards upwork-icon shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:md:absolute left-0 md:top-[150px]"
+              className="contact-section-content-cards shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:md:absolute left-0 md:top-[150px]"
             >
               <img
                 loading="lazy"
@@ -32,7 +32,7 @@ const ContactSection = () => {
             <Link
               target="_blank"
               to="mailto:yousefahmedelshahed@gmail.com"
-              className="contact-section-content-cards upwork-icon shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:absolute md:left-[30px] md:top-[300px]"
+              className="contact-section-content-cards shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:absolute md:left-[30px] md:top-[300px]"
             >
               <img
                 loading="lazy"
@@ -45,8 +45,8 @@ const ContactSection = () => {
             {/* whatsapp card */}
             <Link
               target="_blank"
-              to="https://wa.me/+01145667099"
-              className="contact-section-content-cards upwork-icon shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:absolute md:left-[60px] md:top-[450px]"
+              to="https://wa.me/201145667099"
+              className="contact-section-content-cards shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:absolute md:left-[60px] md:top-[450px]"
             >
               <img
                 loading="lazy"
@@ -59,8 +59,8 @@ const ContactSection = () => {
             {/* facebook card */}
             <Link
               target="_blank"
-              to="https://www.facebook.com/fluxe.tech/"
-              className="contact-section-content-cards upwork-icon shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:absolute md:right-0 md:top-[150px]"
+              to="https://www.facebook.com/yousef.ahmed1242"
+              className="contact-section-content-cards shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:absolute md:right-0 md:top-[150px]"
             >
               <img
                 loading="lazy"
@@ -74,7 +74,7 @@ const ContactSection = () => {
             <Link
               target="_blank"
               to="https://www.instagram.com/_yussef_jooo_/"
-              className="contact-section-content-cards upwork-icon shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:absolute md:right-[30px] md:top-[300px]"
+              className="contact-section-content-cards shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:absolute md:right-[30px] md:top-[300px]"
             >
               <img
                 loading="lazy"
@@ -90,7 +90,7 @@ const ContactSection = () => {
             <Link
               target="_blank"
               to="https://mostaql.com/u/yousef904"
-              className="contact-section-content-cards upwork-icon shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:absolute md:right-[60px] md:top-[450px]"
+              className="contact-section-content-cards shadow-md font-semibold bg-ofwhitecolor p-4 h-auto w-[100%] flex space-x-3 flex-row items-center transition-[.3s] hover:scale-[1.07] md:h-[100px] md:w-[300px] md:absolute md:right-[60px] md:top-[450px]"
             >
               <img
                 loading="lazy"

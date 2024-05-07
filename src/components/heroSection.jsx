@@ -37,7 +37,7 @@ const HeroSection = () => {
             </p>
             <div className="get-in-touch">
               <Link
-                to="https://wa.me/+01145667099"
+                to="https://wa.me/201145667099"
                 target="_blank"
                 className="font-semibold flex items-center justify-center md:text-[18px] text-white bg-maincolor w-[120px] h-[50px] md:w-[150px] md:h-[50px] rounded-lg"
               >
